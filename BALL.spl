@@ -1,0 +1,14 @@
+[Inputs]
+Clk_50MHz
+REFRESH
+Reset
+=POS_PLAYER1[9:0]=
+=POS_PLAYER2[9:0]=
+=SPEED_X[2:0]=
+=SPEED_Y[2:0]=
+[Outputs]
+=POI_PLAYER1[13:0]=
+=POI_PLAYER2[13:0]=
+=POS_X[9:0]=
+=POS_Y[9:0]=
+[BiDir]

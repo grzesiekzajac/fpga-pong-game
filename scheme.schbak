@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drawing version="7">
+    <attr value="spartan3e" name="DeviceFamilyName">
+        <trait delete="all:0" />
+        <trait editname="all:0" />
+        <trait edittrait="all:0" />
+    </attr>
+    <netlist>
+        <signal name="h_s" />
+        <signal name="r" />
+        <signal name="g" />
+        <signal name="b" />
+        <signal name="v_s" />
+        <signal name="clk" />
+        <signal name="XLXN_102(1:0)" />
+        <signal name="XLXN_104" />
+        <signal name="XLXN_56(1:0)" />
+        <signal name="XLXN_106(1:0)" />
+        <signal name="XLXN_98(8:0)" />
+        <signal name="XLXN_108" />
+        <signal name="rst" />
+        <signal name="XLXN_111" />
+        <signal name="XLXN_112" />
+        <signal name="XLXN_113" />
+        <port polarity="Output" name="h_s" />
+        <port polarity="Output" name="r" />
+        <port polarity="Output" name="g" />
+        <port polarity="Output" name="b" />
+        <port polarity="Output" name="v_s" />
+        <port polarity="Input" name="clk" />
+        <port polarity="Input" name="rst" />
+        <blockdef name="VGA_DRIVER">
+            <timestamp>2015-4-16T14:41:57</timestamp>
+            <line x2="0" y1="3152" y2="3152" x1="64" />
+            <rect width="64" x="0" y="3220" height="24" />
+            <line x2="0" y1="3232" y2="3232" x1="64" />
+            <rect width="64" x="0" y="3300" height="24" />
+            <line x2="0" y1="3312" y2="3312" x1="64" />
+            <rect width="64" x="0" y="3380" height="24" />
+            <line x2="0" y1="3392" y2="3392" x1="64" />
+            <rect width="64" x="0" y="3460" height="24" />
+            <line x2="0" y1="3472" y2="3472" x1="64" />
+            <rect width="64" x="0" y="3540" height="24" />
+            <line x2="0" y1="3552" y2="3552" x1="64" />
+            <line x2="0" y1="-352" y2="-352" x1="64" />
+            <line x2="464" y1="-352" y2="-352" x1="400" />
+            <line x2="464" y1="-272" y2="-272" x1="400" />
+            <line x2="464" y1="-192" y2="-192" x1="400" />
+            <line x2="464" y1="-112" y2="-112" x1="400" />
+            <line x2="464" y1="-32" y2="-32" x1="400" />
+            <rect width="336" x="64" y="-384" height="3968" />
+        </blockdef>
+        <blockdef name="constant">
+            <timestamp>2006-1-1T10:10:10</timestamp>
+            <rect width="112" x="0" y="0" height="64" />
+            <line x2="112" y1="32" y2="32" x1="144" />
+        </blockdef>
+        <blockdef name="PLAYER1">
+            <timestamp>2015-4-16T14:43:35</timestamp>
+            <rect width="64" x="320" y="20" height="24" />
+            <line x2="384" y1="32" y2="32" x1="320" />
+            <line x2="0" y1="-32" y2="-32" x1="64" />
+            <rect width="256" x="64" y="-64" height="128" />
+        </blockdef>
+        <block symbolname="VGA_DRIVER" name="XLXI_35">
+            <blockpin signalname="clk" name="Clk_50MHz" />
+            <blockpin signalname="h_s" name="VGA_HS" />
+            <blockpin signalname="v_s" name="VGA_VS" />
+            <blockpin signalname="r" name="VGA_R" />
+            <blockpin signalname="g" name="VGA_G" />
+            <blockpin signalname="b" name="VGA_B" />
+            <blockpin signalname="rst" name="CLR" />
+            <blockpin signalname="XLXN_56(1:0)" name="OBJECT1_COLOR(1:0)" />
+            <blockpin signalname="XLXN_56(1:0)" name="OBJECT2_COLOR(1:0)" />
+            <blockpin signalname="XLXN_56(1:0)" name="OBJECT3_COLOR(1:0)" />
+            <blockpin signalname="XLXN_56(1:0)" name="OBJECT4_COLOR(1:0)" />
+            <blockpin signalname="XLXN_98(8:0)" name="OBJECT1_POS_Y_OFFSET(8:0)" />
+        </block>
+        <block symbolname="constant" name="XLXI_14">
+            <attr value="3" name="CValue">
+                <trait delete="all:1 sym:0" />
+                <trait editname="all:1 sch:0" />
+                <trait valuetype="BitVector 32 Hexadecimal" />
+            </attr>
+            <blockpin signalname="XLXN_56(1:0)" name="O" />
+        </block>
+        <block symbolname="PLAYER1" name="XLXI_39">
+            <blockpin signalname="clk" name="Clk_50MHz" />
+            <blockpin signalname="XLXN_98(8:0)" name="POS(8:0)" />
+        </block>
+    </netlist>
+    <sheet sheetnum="1" width="7040" height="5440">
+        <branch name="h_s">
+            <wire x2="2224" y1="576" y2="576" x1="2160" />
+            <wire x2="2240" y1="576" y2="576" x1="2224" />
+        </branch>
+        <branch name="r">
+            <wire x2="2224" y1="736" y2="736" x1="2160" />
+            <wire x2="2240" y1="736" y2="736" x1="2224" />
+        </branch>
+        <branch name="g">
+            <wire x2="2224" y1="816" y2="816" x1="2160" />
+            <wire x2="2240" y1="816" y2="816" x1="2224" />
+        </branch>
+        <branch name="b">
+            <wire x2="2224" y1="896" y2="896" x1="2160" />
+            <wire x2="2240" y1="896" y2="896" x1="2224" />
+        </branch>
+        <branch name="v_s">
+            <wire x2="2224" y1="656" y2="656" x1="2160" />
+            <wire x2="2240" y1="656" y2="656" x1="2224" />
+        </branch>
+        <branch name="clk">
+            <wire x2="256" y1="576" y2="576" x1="208" />
+            <wire x2="1696" y1="576" y2="576" x1="256" />
+            <wire x2="256" y1="576" y2="4416" x1="256" />
+            <wire x2="528" y1="4416" y2="4416" x1="256" />
+        </branch>
+        <iomarker fontsize="28" x="2240" y="816" name="g" orien="R0" />
+        <iomarker fontsize="28" x="2240" y="736" name="r" orien="R0" />
+        <iomarker fontsize="28" x="2240" y="896" name="b" orien="R0" />
+        <iomarker fontsize="28" x="2240" y="576" name="h_s" orien="R0" />
+        <iomarker fontsize="28" x="2240" y="656" name="v_s" orien="R0" />
+        <instance x="1696" y="928" name="XLXI_35" orien="R0">
+        </instance>
+        <iomarker fontsize="28" x="208" y="576" name="clk" orien="R180" />
+        <instance x="960" y="4352" name="XLXI_14" orien="R0">
+        </instance>
+        <branch name="XLXN_56(1:0)">
+            <wire x2="1264" y1="4384" y2="4384" x1="1104" />
+            <wire x2="1264" y1="4384" y2="4400" x1="1264" />
+            <wire x2="1696" y1="4400" y2="4400" x1="1264" />
+            <wire x2="1696" y1="4160" y2="4160" x1="1264" />
+            <wire x2="1264" y1="4160" y2="4240" x1="1264" />
+            <wire x2="1264" y1="4240" y2="4320" x1="1264" />
+            <wire x2="1264" y1="4320" y2="4384" x1="1264" />
+            <wire x2="1696" y1="4320" y2="4320" x1="1264" />
+            <wire x2="1696" y1="4240" y2="4240" x1="1264" />
+        </branch>
+        <branch name="XLXN_98(8:0)">
+            <wire x2="1696" y1="4480" y2="4480" x1="912" />
+        </branch>
+        <branch name="rst">
+            <wire x2="1696" y1="4080" y2="4080" x1="1568" />
+        </branch>
+        <iomarker fontsize="28" x="1568" y="4080" name="rst" orien="R180" />
+        <instance x="528" y="4448" name="XLXI_39" orien="R0">
+        </instance>
+    </sheet>
+</drawing>

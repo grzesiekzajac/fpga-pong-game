@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="VGA_DRIVER">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2015-5-8T12:12:41</timestamp>
+    <pin polarity="Input" x="0" y="3152" name="CLR" />
+    <pin polarity="Input" x="0" y="3232" name="OBJECT1_COLOR(1:0)" />
+    <pin polarity="Input" x="0" y="3312" name="OBJECT2_COLOR(1:0)" />
+    <pin polarity="Input" x="0" y="3392" name="OBJECT3_COLOR(1:0)" />
+    <pin polarity="Input" x="0" y="3472" name="OBJECT4_COLOR(1:0)" />
+    <pin polarity="Input" x="0" y="3552" name="OBJECT1_POS_Y_OFFSET(9:0)" />
+    <pin polarity="Input" x="0" y="3632" name="OBJECT2_POS_Y_OFFSET(9:0)" />
+    <pin polarity="Input" x="0" y="3712" name="OBJECT3_POS_X_OFFSET(9:0)" />
+    <pin polarity="Input" x="0" y="3792" name="OBJECT3_POS_Y_OFFSET(9:0)" />
+    <pin polarity="Output" x="464" y="3872" name="REFRESH" />
+    <pin polarity="Input" x="0" y="2768" name="Clk_50MHz" />
+    <pin polarity="Output" x="464" y="2768" name="VGA_HS" />
+    <pin polarity="Output" x="464" y="2848" name="VGA_VS" />
+    <pin polarity="Output" x="464" y="2928" name="VGA_R" />
+    <pin polarity="Output" x="464" y="3008" name="VGA_G" />
+    <pin polarity="Output" x="464" y="3088" name="VGA_B" />
+    <graph>
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="3152" type="pin CLR" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="3232" type="pin OBJECT1_COLOR(1:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="3312" type="pin OBJECT2_COLOR(1:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="3392" type="pin OBJECT3_COLOR(1:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="3472" type="pin OBJECT4_COLOR(1:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="3552" type="pin OBJECT1_POS_Y_OFFSET(9:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="3632" type="pin OBJECT2_POS_Y_OFFSET(9:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="3712" type="pin OBJECT3_POS_X_OFFSET(9:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="3792" type="pin OBJECT3_POS_Y_OFFSET(9:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="3872" type="pin REFRESH" />
+        <line x2="464" y1="3872" y2="3872" x1="400" />
+        <rect width="64" x="0" y="3700" height="24" />
+        <line x2="0" y1="3712" y2="3712" x1="64" />
+        <rect width="64" x="0" y="3780" height="24" />
+        <line x2="0" y1="3792" y2="3792" x1="64" />
+        <rect width="64" x="0" y="3620" height="24" />
+        <line x2="0" y1="3632" y2="3632" x1="64" />
+        <line x2="0" y1="3152" y2="3152" x1="64" />
+        <rect width="64" x="0" y="3220" height="24" />
+        <line x2="0" y1="3232" y2="3232" x1="64" />
+        <rect width="64" x="0" y="3300" height="24" />
+        <line x2="0" y1="3312" y2="3312" x1="64" />
+        <rect width="64" x="0" y="3380" height="24" />
+        <line x2="0" y1="3392" y2="3392" x1="64" />
+        <rect width="64" x="0" y="3460" height="24" />
+        <line x2="0" y1="3472" y2="3472" x1="64" />
+        <rect width="64" x="0" y="3540" height="24" />
+        <line x2="0" y1="3552" y2="3552" x1="64" />
+        <rect width="336" x="64" y="2732" height="1172" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="216" y="2728" type="symbol" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="2768" type="pin VGA_HS" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="2848" type="pin VGA_VS" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="2928" type="pin VGA_R" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="3008" type="pin VGA_G" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="3088" type="pin VGA_B" />
+        <line x2="0" y1="2768" y2="2768" x1="64" />
+        <line x2="464" y1="2768" y2="2768" x1="400" />
+        <line x2="464" y1="2848" y2="2848" x1="400" />
+        <line x2="464" y1="2928" y2="2928" x1="400" />
+        <line x2="464" y1="3008" y2="3008" x1="400" />
+        <line x2="464" y1="3088" y2="3088" x1="400" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="2768" type="pin Clk_50MHz" />
+    </graph>
+</symbol>

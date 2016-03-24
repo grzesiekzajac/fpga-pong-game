@@ -1,0 +1,8 @@
+[Inputs]
+Clk_50MHz
+=M_IN1[13:0]=
+=M_IN2[13:0]=
+=M_IN3[2:0]=
+[Outputs]
+=M_OUT[63:0]=
+[BiDir]

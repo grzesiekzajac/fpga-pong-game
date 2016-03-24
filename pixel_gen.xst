@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/lab/PT_13_PONG/PONG_4/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/lab/PT_13_PONG/PONG_4/xst"
+elaborate
+-ifn pixel_gen.prj
+-ifmt mixed

@@ -1,0 +1,7 @@
+[Inputs]
+video_on
+[Outputs]
+r
+g
+b
+[BiDir]

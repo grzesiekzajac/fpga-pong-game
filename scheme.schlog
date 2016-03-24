@@ -1,0 +1,4 @@
+select figure at 5282 5155 8 -branches -sn=1
+select all in 4719 4428 5282 5155 -branches -enclosed -sn=1
+delete selection -sn=1
+select figure at 4635 4193 8 -branches -sn=1

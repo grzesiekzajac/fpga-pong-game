@@ -1,0 +1,8 @@
+vhdl work "VGA_driver.vhd"
+vhdl work "PLAYER2.vhd"
+vhdl work "PLAYER1.vhd"
+vhdl work "magistrala.vhd"
+vhdl work "BALL_SPEED.vhd"
+vhdl work "BALL.vhd"
+vhdl work "ADC_POSITION.vhd"
+vhdl work "scheme.vhf"

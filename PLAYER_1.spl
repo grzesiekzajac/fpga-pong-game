@@ -1,0 +1,5 @@
+[Inputs]
+=INPUT[3:0]=
+[Outputs]
+=POSITION_X[8:0]=
+[BiDir]

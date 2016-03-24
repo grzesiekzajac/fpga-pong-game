@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/lab/Desktop/PONG_4/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/lab/Desktop/PONG_4/xst"
+elaborate
+-ifn ADC_POSITION.prj
+-ifmt mixed

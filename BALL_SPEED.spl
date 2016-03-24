@@ -1,0 +1,8 @@
+[Inputs]
+ROT_L
+ROT_R
+RESET
+Clk_50Mhz
+[Outputs]
+=BALL_SPEED[2:0]=
+[BiDir]

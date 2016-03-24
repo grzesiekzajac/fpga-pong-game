@@ -1,0 +1,10 @@
+[Inputs]
+Clk_50MHz
+RESET
+REFRESH
+Busy
+[Outputs]
+AMP_WE
+ADC_START
+=AMP_DI[7:0]=
+[BiDir]

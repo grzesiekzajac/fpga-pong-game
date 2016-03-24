@@ -1,0 +1,6 @@
+[Inputs]
+Clk_50MHz
+=POS_IN[13:0]=
+[Outputs]
+=POS[9:0]=
+[BiDir]
